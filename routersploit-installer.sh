@@ -8,6 +8,7 @@ blue=`echo -n '\e[01;96m'`;
 clear_font=`echo -n '\e[00m'`;
 
 # Header
+clear
 echo -e "";
 echo -e "$yellow╔═════════════════════════════════════════════════════════════════╗$clear_font";
 echo -e "$yellow║\t\t\t\t\t\t\t\t  ║$clear_font";
@@ -21,7 +22,6 @@ echo -e "";
 echo -e "cryptography==2.8 \nfuture \nrequests==2.21.0 \nparamiko \npysnmp==4.4.6 \npycryptodome" >>requirements.txt
 echo -e "cryptography==2.8 \nfuture \nrequests==2.21.0 \nparamiko \npysnmp==4.4.6 \npycryptodome \npytest==4.4.0 \npytest-forked \npytest-xdist \nflake8 \ngit+git://github.com/threat9/threat9-test-bed" >>requirements-dev.txt
 
-clear
 echo -e "$yellow[!]$clear_font Updating termux packages.";
 sleep 2
 apt update -y && apt upgrade -y
@@ -44,4 +44,3 @@ mv routersploit $HOME/ 2>/dev/null
 rm -r requirements.txt requirements-dev.txt 2>/dev/null
 echo "alias routersploit='python3 $HOME/routersploit/rsf.py'" >>$HOME/.bashrc
 echo -e "$green[*]$clear_font Installation complete. $green_bold\nLaunch routersploit next time by executing: routersploit$clear_font"
-

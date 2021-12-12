@@ -1,11 +1,11 @@
-# Routersploit-Termux
+# Routersploit-Installer
 
 This script automates the installation process of routersploit on Termux to avoid errors.
 
 
 # Important Requirements
 
-- Reinstall termux if you install it from play store.
+- Reinstall termux if you installed it from play store.
   To do this download the apk file from: https://f-droid.org/en/packages/com.termux/
 - Make sure you have internet connection and at least 1GB of free space. 
 
