@@ -24,5 +24,5 @@ curl https://raw.githubusercontent.com/Psi505/Routersploit-Installer/main/router
 To run routersploit you can simply write this command next time you start termux:
 
 ```
-$ routersploit
+routersploit
 ```
