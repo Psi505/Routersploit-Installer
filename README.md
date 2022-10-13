@@ -7,7 +7,7 @@ This script automates the installation process of routersploit on Termux to avoi
 
 - Reinstall termux if you installed it from play store.
   To do this download the apk file from: https://f-droid.org/en/packages/com.termux/
-- Make sure you have internet connection and at least 1GB of free space. 
+- Make sure you have internet connection and at least 2 GB of free space. 
 
 * Note: Make sure you backup your files and flders before reinstalling. More info in this link: https://wiki.termux.com/wiki/Backing_up_Termux
 
