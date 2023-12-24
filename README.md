@@ -1,28 +1,33 @@
-# Routersploit-Installer
+## About
 
-This script automates the installation process of routersploit on Termux to avoid errors.
+Automate the installation of Routersploit on Termux to streamline the process and avoid errors.
 
+## Important Requirements
 
-# Important Requirements
+1. **Reinstall Termux:** If you initially installed Termux from the Play Store, consider reinstalling it using the APK file from [F-Droid](https://f-droid.org/en/packages/com.termux/).
 
-- Reinstall termux if you installed it from play store.
-  To do this download the apk file from: https://f-droid.org/en/packages/com.termux/
-- Make sure you have internet connection and at least 2 GB of free space. 
+   **Note:** Before reinstalling, back up your files and folders. More information is available [here](https://wiki.termux.com/wiki/Backing_up_Termux).
 
-* Note: Make sure you backup your files and flders before reinstalling. More info in this link: https://wiki.termux.com/wiki/Backing_up_Termux
+2. **Internet Connection:** Ensure a stable internet connection.
 
+3. **Storage Space:** Allocate at least 2 GB of free space on your device.
 
-# Install
+## Installation
 
-```
+Execute the following command in your Termux terminal:
+
+```bash
 curl https://raw.githubusercontent.com/Psi505/Routersploit-Installer/main/routersploit-installer.sh | bash
 ```
 
+## Usage
 
-# Usage
+After successful installation, run Routersploit with the following command whenever you start Termux:
 
-To run routersploit you can simply write this command next time you start termux:
-
-```
+```bash
 routersploit
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
